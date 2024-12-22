@@ -58,39 +58,82 @@ footer {
 
 /* mobile */
 @media only screen and (max-width: 375px) {
+    /* General Body Adjustments */
     body {
-        font-size: 14px;
-        line-height: 1.5;
+        font-size: 14px; /* Adjust font size for readability */
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
     }
-    
+
+    /* Wrapper */
     .wrapper {
-        width: 100%;
-        padding: 10px;
+        width: 100%; /* Ensure wrapper fills the screen */
+        padding: 10px; /* Add spacing for better layout */
     }
-    
+
+    /* Images */
     img {
-        max-width: 100%;
-        height: auto;
+        max-width: 100%; /* Ensure images are responsive */
+        height: auto; /* Maintain aspect ratio */
+        display: block; /* Avoid inline images */
+        margin: 0 auto; /* Center images */
+    }
+
+    /* Navigation Menu */
+    nav {
+        height: auto; /* Adjust height for mobile layout */
+        background-color: #75b1ff; /* Ensure consistent background */
     }
 
     nav ul {
-        padding: 5px;
-        text-align: center;
+        padding: 0; /* Remove unnecessary padding */
+        margin: 0;
+        text-align: center; /* Center align menu items */
+        list-style: none; /* Remove bullet points */
     }
 
     nav li {
-        display: block;
-        margin: 10px 0;
+        display: block; /* Stack menu items vertically */
+        margin: 10px 0; /* Add spacing between items */
     }
 
     nav li a {
-        font-size: 16px;
-        color: #ffffff; /* Adjust if necessary */
+        color: #ffffff; /* Ensure text color is visible */
+        font-size: 16px; /* Adjust for readability */
+        text-decoration: none; /* Remove underlines */
+        padding: 10px 15px; /* Add padding for touch targets */
+        display: inline-block; /* Ensure clickable area */
     }
 
+    nav li a:hover {
+        color: #000000; /* Change color on hover */
+    }
+
+    /* Header */
     header img {
-        max-width: 80%;
-        margin: 0 auto;
-        display: block;
+        max-width: 80%; /* Scale down logo */
+        margin: 0 auto; /* Center the logo */
+        display: block; /* Ensure it's not inline */
+    }
+
+    header h1 {
+        font-size: 20px; /* Adjust font size */
+        text-align: center; /* Center align header text */
+    }
+
+    /* Section Adjustments */
+    section.about {
+        padding: 10px; /* Add padding for readability */
+    }
+
+    article h2 {
+        font-size: 18px; /* Adjust heading size */
+        text-align: center; /* Center align headings */
+    }
+
+    p {
+        font-size: 14px; /* Adjust paragraph size */
+        margin: 10px 0; /* Add spacing between paragraphs */
     }
 }
