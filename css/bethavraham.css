@@ -11,6 +11,9 @@ img {
     max-width: 20%;
     max-height: 20%;}
 
+section.about {
+    margin: 30px;}
+
 nav {
 	clear: both;
 	color: #ffffff;
@@ -28,3 +31,7 @@ nav li a:hover {
     color: #000000;}
 nav ul, nav li, nav li a {
     border: none;}
+
+footer {
+	font-size: 80%;
+	padding: 7px 0px 0px 20px;}
