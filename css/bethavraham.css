@@ -57,5 +57,40 @@ footer {
 	padding: 7px 0px 0px 20px;}
 
 /* mobile */
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 375px) {
+    body {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    .wrapper {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    nav ul {
+        padding: 5px;
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav li a {
+        font-size: 16px;
+        color: #ffffff; /* Adjust if necessary */
+    }
+
+    header img {
+        max-width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
 }
