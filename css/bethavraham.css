@@ -57,7 +57,7 @@ footer {
 	padding: 7px 0px 0px 20px;}
 
 /* mobile */
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 375px) {
     /* General Body Adjustments */
     body {
         font-size: 14px; /* Adjust font size for readability */
