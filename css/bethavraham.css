@@ -17,6 +17,17 @@ img {
     margin-right: auto;
     width: 50%;}
 
+a.home {
+    color: #75b1ff
+}
+
+a.home:link { 
+  text-decoration: none; 
+} 
+a.home:visited { 
+  text-decoration: none; 
+} 
+
 section.about {
     margin: 30px;}
 
