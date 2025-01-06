@@ -76,7 +76,10 @@
             </section>
         </div>
         <footer>
-            &copy; 2024 Beth Avraham Congregation
+            &copy; <span id="year"></span> Beth Avraham Congregation
         </footer>
+        <script>
+            document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
     </body>
 </html>
