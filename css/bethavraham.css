@@ -63,6 +63,21 @@ footer {
 	font-size: 80%;
 	padding: 7px 0px 0px 20px;}
 
+figure {
+  text-align: center;    /* Centers the content inside the figure */
+  margin: 0 auto;        /* Centers the figure itself if needed */
+}
+
+figcaption {
+  margin-top: 8px;       /* Adds spacing between the image and caption */
+  font-size: 14px;       /* Optional: Adjust font size */
+  color: #555;           /* Optional: Adjust text color */
+}
+
+.row {
+  text-align: center;
+}
+
  /* Dropdown Button */
 .dropbtn {
   background-color: #75b1ff;
